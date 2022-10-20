@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    real  nota1, nota2, nota3, nota4, mediaFinal 
+    escreva("escreva a nota 1")
+    leia (nota1)
+
+    escreva("escreva a nota 2")
+    leia (nota2)
+    escreva("escreva a nota 3")
+    leia (nota3)
+
+    escreva("escreva a nota 4")
+    leia (nota4)
+
+    mediaFinal=( nota1 + nota2 + nota3 + nota4 /4)
+    escreva ("escreva a media )
+    leia(mediaFinal)
+
+
+  }
+}

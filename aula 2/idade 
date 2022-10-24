@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+    inteiro idade 
+
+    escreva ("escreva a sua idade ")
+    leia (idade)
+
+    se (idade <16)
+    escreva("voce ainda não pode votar")
+    se (idade >=16 e idade <18)
+    escreva("voce esta apto a votar , porem é facultativo")
+
+    se (idade >=18 e idade <65)
+    escreva("voce esta apto a votar , porem é obrigatorio")
+
+    se ( idade >=65)
+    escreva("voce esta apto a votar , porem é facultativo")
+    
+    
+  }
+}

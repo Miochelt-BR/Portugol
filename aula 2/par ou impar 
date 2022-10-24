@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro numero
+
+    escreva("bemm vindo T tech ")
+
+    escreva("Digite um número: ")
+    leia(numero)
+
+    se (numero % 2 == 0 e numero > 0)
+    escreva("O número digitado é par e postivo!")
+    senao se (numero % 2 == 0 e numero < 0)
+    escreva("O número digitado é par e negativo!")
+    senao se (numero % 2 == 1 e numero > 0)
+    escreva("O número digitado é ímpar e positivo!")
+    senao se (numero % 2 == 1 e numero < 0)
+    escreva("O número digitado é ímpar e negativo!")
+    senao
+  }
+}

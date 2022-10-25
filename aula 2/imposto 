@@ -9,6 +9,7 @@ programa {
       escreva("o salario precisa ser um numero positivo ")
     se (salario <= 2000 e salario >0)
       escreva("o imposto de renda do seu salario é isento " )
+
     se (salario > 2000 e salario <= 3000)
       escreva("o imposto de renda do seu salario é " , (8/100)* salario)
     se ( salario  > 3000 e salario <= 4500)

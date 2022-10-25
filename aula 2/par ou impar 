@@ -2,7 +2,7 @@ programa {
   funcao inicio() {
     inteiro numero
 
-    escreva("bemm vindo T tech ")
+    escreva("bem vindo T tech ")
 
     escreva("Digite um número: ")
     leia(numero)
